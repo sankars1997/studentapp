@@ -13,4 +13,10 @@ public String Homepage(){
     return "welcome to my webpage";
 }
 
+
+@GetMapping("/contact")
+    public String Contactpage(){
+        return "welcome to contactpage ";
+}
+
 }
