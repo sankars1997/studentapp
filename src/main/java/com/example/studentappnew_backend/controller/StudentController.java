@@ -19,4 +19,9 @@ public String Homepage(){
         return "welcome to contactpage ";
 }
 
+@GetMapping("/gallery")
+    public String gallery(){
+        return "gallery";
+}
+
 }
